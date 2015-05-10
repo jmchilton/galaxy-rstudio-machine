@@ -1,10 +1,10 @@
-galaxy-ipython-machine
+galaxy-rstudio-machine
 =====================
 
 A set of [packer](http://packer.io) and
 [ansible](http://www.ansible.com/) configuration files and scripts
 used to build [Ubuntu](http://www.ubuntu.com/) environment for
-exploring [Galaxy's](http://galaxyproject.org) IPython interactive
+exploring [Galaxy's](http://galaxyproject.org) RStudio interactive
 environment plugin.
 
 Using the Machine
@@ -13,15 +13,15 @@ Using the Machine
 Install [Vagrant](https://www.vagrantup.com/).
 
 
-    % mkdir ipythontest
-    % cd ipythontest 
-    % wget https://raw.githubusercontent.com/jmchilton/galaxy-ipython-machine/master/test/Vagrantfile
+    % mkdir rstudiotest
+    % cd rstudiotest 
+    % wget https://raw.githubusercontent.com/jmchilton/galaxy-rstudio-machine/master/test/Vagrantfile
     % vagrant up
 
-After a download an initialization process - Galaxy with IPython
+After a download an initialization process - Galaxy with RStudio
 embedded should be running on port [8010](http://localhost:8010).
 
-If all you want to do is explore using IPython from within Galaxy you
+If all you want to do is explore using RStudio from within Galaxy you
 should be ready to go, the rest of these instructions are for building
 the VM you just downloaded.
 
@@ -37,7 +37,7 @@ need to initialize them:
 Example Build
 -----------------------
 
- * Build and register Vagrant box (named ``galaxyipython``).
+ * Build and register Vagrant box (named ``galaxyrstudio``).
 
 ``vagrant_create_box.sh``
 

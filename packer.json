@@ -11,9 +11,9 @@
     "ami_region": "us-east-1",
     "ami_source": "64e27e0c",
     "ami_instance_type": "t1.micro",
-    "ami_name": "galaxy-ipython {{timestamp}}",
+    "ami_name": "galaxy-rstudio {{timestamp}}",
     "gce_account_file": "gce_account.json",
-    "gce_project_id": "galaxyipython",
+    "gce_project_id": "galaxyrstudio",
     "gce_source_image": "ubuntu-1404-trusty-v20150127",
     "gce_zone": "us-central1-a"
   },
@@ -80,7 +80,7 @@
       "project_id": "{{user `gce_project_id`}}",
       "source_image": "{{user `gce_source_image`}}",
       "zone": "{{user `gce_zone`}}",
-      "image_name": "galaxy-ipython-machine-{{timestamp}}"
+      "image_name": "galaxy-rstudio-machine-{{timestamp}}"
     }
   ],
   "post-processors": [

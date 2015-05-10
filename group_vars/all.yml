@@ -16,8 +16,8 @@ dev_user_shellrc: "{{ dev_user_home }}/.bashrc"
 
 galaxy_vcs: git
 galaxy_git_repo: https://github.com/jmchilton/galaxy.git
-galaxy_changeset_id: release_15.03_docker
-galaxy_download_url: https://codeload.github.com/jmchilton/galaxy/tar.gz/release_15.03_docker
+galaxy_changeset_id: ie_updates_may2015
+galaxy_download_url: https://codeload.github.com/jmchilton/galaxy/tar.gz/ie_updates_may2015
 
 galaxy_manage_clone: no
 galaxy_manage_download: yes
@@ -41,7 +41,7 @@ galaxy_log_dir: /home/{{ galaxy_user_name }}
 
 galaxy_extras_install_packages: true
 galaxy_extras_config_proftpd: false
-galaxy_extras_ie_fetch_ipython: true
+galaxy_extras_ie_fetch_rstudio: true
 
 # Auto login this user....
 galaxy_admin_user: "researcher@galaxyproject.org"

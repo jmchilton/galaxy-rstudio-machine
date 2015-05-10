@@ -2,7 +2,7 @@
 
 set -e
 
-VAGRANT_NAME=${VAGRANT_NAME:-"galaxyipython"}
+VAGRANT_NAME=${VAGRANT_NAME:-"galaxyrstudio"}
 VAGRANT_NAME=${1:-${VAGRANT_NAME}}
 
 VIRTUALBOX_BOX="packer_virtualbox-iso_virtualbox.box"
