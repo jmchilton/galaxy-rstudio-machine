@@ -16,8 +16,8 @@ dev_user_shellrc: "{{ dev_user_home }}/.bashrc"
 
 galaxy_vcs: git
 galaxy_git_repo: https://github.com/jmchilton/galaxy.git
-galaxy_changeset_id: ie_updates_may2015
-galaxy_download_url: https://codeload.github.com/jmchilton/galaxy/tar.gz/ie_updates_may2015
+galaxy_changeset_id: rstudio
+galaxy_download_url: https://codeload.github.com/jmchilton/galaxy/tar.gz/rstudio
 
 galaxy_manage_clone: no
 galaxy_manage_download: yes
